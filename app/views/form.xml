@@ -1,0 +1,7 @@
+<Alloy>
+	<View class="container">
+	    <Label id="toggle" text="»"/>
+	    <TextField id="input" hintText="Tap here to add an item"/>
+	    <View class="dottedLine"/>
+	</View>
+</Alloy>

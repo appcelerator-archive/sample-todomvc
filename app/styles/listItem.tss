@@ -1,0 +1,26 @@
+Label: {
+    color:'#a9a9a9'
+},
+
+"#container": {
+	height:'55dp'
+},
+
+'#check': {
+    left:0,
+    opacity:0.3,
+    width:'45dp',
+    textAlign:'center',
+    font: {
+        fontSize:'28dp'
+    }
+},
+
+'#del': {
+    right:'-45dp',
+    width:'45dp',
+    textAlign:'center',
+    font: {
+        fontSize:'28dp'
+    }
+}

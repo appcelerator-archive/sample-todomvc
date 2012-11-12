@@ -1,0 +1,31 @@
+TextField: {
+    right:'5dp',
+    top:'5dp',
+    bottom:'5dp',
+    left:'60dp',
+    font: {
+        fontSize:'18dp'
+    }
+},
+
+'TextField[platform=android]': {
+    backgroundImage:'/dev/null'
+},
+
+Label: {
+    color:'#a9a9a9'
+},
+
+'#toggle': {
+    left:'5dp',
+    opacity:0,
+    width:'45dp',
+    textAlign:'center',
+    font: {
+        fontSize:'42dp'
+    }
+},
+
+'.container': {
+	backgroundColor:'#f7f7f7'
+}

@@ -1,0 +1,33 @@
+Label: {
+    width:Ti.UI.SIZE
+},
+
+'#clear[platform=ios]': {
+    style:Ti.UI.iPhone.SystemButtonStyle.BORDERED,
+    backgroundColor:'#ff0000'
+},
+
+'#container': {
+	barColor: '#776b65'
+},
+
+'#tabs': {
+    backgroundColor: '#776b65',
+    index:0
+},
+
+'#count': {
+    color:'#fff',
+    font: {
+        fontSize:'11dp'
+    }
+},
+
+'#filter': {
+    left:'5dp',
+    bottom:'-2dp',
+    font: {
+        fontWeight:'bold',
+        fontSize:'38dp'
+    }
+}

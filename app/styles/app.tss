@@ -1,0 +1,17 @@
+Window: {
+    backgroundColor:'#fefefe',
+    exitOnClose:true,
+    navBarHidden:true
+},
+
+Label: {
+    color:'#000'
+},
+
+'.dottedLine': {
+    backgroundImage:'/dots.png',
+    backgroundRepeat:true,
+    height:'1dp',
+    bottom:0,
+    opacity:0.3
+}

@@ -1,0 +1,38 @@
+'.rule': {
+    width:'1dp',
+    backgroundColor:'#f5d6d6',
+    opacity:0.7
+},
+
+'#rule1': {
+    left:'45dp'
+},
+
+'#rule2': {
+    left:'50dp'
+},
+
+'#bar': {
+    top:0,
+    height:'16dp',
+    backgroundImage:'/bar.png'
+},
+
+'#formContainer': {
+    height:'55dp',
+    top:'16dp'
+},
+
+'#listContainer': {
+    top:'71dp',
+    bottom:'44dp'
+},
+
+'#listContainer[platform=android]': {
+    bottom:0
+},
+
+'#toolbar': {
+	bottom:0,
+	height:'44dp'
+}

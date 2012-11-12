@@ -1,0 +1,22 @@
+<Alloy>
+	<Window>
+	    <Menu platform="android">
+	       <MenuItem title="Show All"/>
+    	   <MenuItem title="Show Active"/>
+       	   <MenuItem title="Clear Completed"/>
+	    </Menu>
+	    
+	    <View id="formContainer">
+	        <Require src="form"/>
+	    </View>
+	    <View id="listContainer">
+	        <Require src="list"/>
+	    </View>
+		<View id="rule1" class="rule"/>
+		<View id="rule2" class="rule"/>
+		<View id="bar"/>
+		<View id="toolbar" platform="ios">
+		    <Require src="toolbar"/>
+		</View>
+	</Window>
+</Alloy>

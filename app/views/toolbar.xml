@@ -1,0 +1,22 @@
+<Alloy>
+    <!-- Use iOS specific Toolbar -->
+	<Toolbar platform="ios" id="container">
+	    <Items>
+	        <TabbedBar id="tabs">
+                <Labels>
+                    <Label>Active</Label>
+                    <Label>All</Label>
+                </Labels>
+    	    </TabbedBar>
+    	    <FlexSpace/>
+    	    <Label id="count">No Tasks!</Label>
+    	    <FlexSpace/>
+    	    <Button id="clear">Clear Complete</Button>
+	    </Items>
+	</Toolbar>
+	
+	<!-- create custom toolbar for android -->
+	<View platform="android">
+	   <Label>TODO: Implement an Android toolbar?  Using menu for now.</Label>
+	</View>
+</Alloy>

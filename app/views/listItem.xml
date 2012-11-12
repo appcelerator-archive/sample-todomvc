@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="container">
+	    <Label id="check" class="dim" text="✔"/>
+	    <Label platform="ios" id="del" text="✖"/>
+	    <View class="dottedLine"/>
+	</View>
+</Alloy>
